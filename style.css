@@ -1,36 +1,56 @@
 /* Global or Common CSS start */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    background-color: #FAFAFA;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #fafafa;
+}
+
+/* variable with global scope */
+:root {
+  --main-theme-color: #f44335;
+  --border-color: #072125;
+}
+
+/* Global btn */
+.global-btn {
+  background-color: var(--main-theme-color);
+  color: #ffffff;
+  width: 400;
+  font-size: 18px;
+}
+
+.text-color {
+  color: var(--main-theme-color);
+}
+
+.large-text {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+}
+/* Global or Common CSS end */
 
 
-  /* variable with global scope */
-  :root {
-    --main-theme-color: #F44335;
-  }
 
 
-  /* Global btn */
-  .global-btn{
-    background-color: var(--main-theme-color);
-    color: #FFFFFF;
-    width: 400;
-    font-size: 18px;
-  }
 
-  /* Global or Common CSS end */
-  
-  /* Navbar section CSS: */
-  .home-text-color{
-    color: var(--main-theme-color);
-  }
 
-  
-  /* Banner Section CSS: */
+
+
+
+
+
+
+
+
+
+
+
+/* Navbar section CSS: */
+
+/* Banner Section CSS: */
