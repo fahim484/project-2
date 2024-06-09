@@ -14,6 +14,7 @@ body {
 :root {
   --main-theme-color: #f44335;
   --border-color: #072125;
+  --p-color: #787A80;
 }
 
 /* Global btn */
@@ -32,6 +33,10 @@ body {
   font-size: 64px;
   font-weight: 700;
   line-height: 76.8px;
+}
+
+.skill-text {
+  color: var(--p-color);
 }
 /* Global or Common CSS end */
 
