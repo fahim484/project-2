@@ -35,6 +35,13 @@ body {
   line-height: 76.8px;
 }
 
+.md-text{
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 41.6px;
+  color: #1E212C;
+}
+
 .skill-text {
   color: var(--p-color);
 }
