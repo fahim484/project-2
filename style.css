@@ -15,6 +15,7 @@ body {
   --main-theme-color: #f44335;
   --border-color: #072125;
   --p-color: #787A80;
+  --footer-text: #20484F;
 }
 
 /* Global btn */
@@ -44,6 +45,10 @@ body {
 
 .skill-text {
   color: var(--p-color);
+}
+
+.footer-text{
+  color: var(--footer-text);
 }
 /* Global or Common CSS end */
 
